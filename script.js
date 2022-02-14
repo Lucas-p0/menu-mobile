@@ -1,10 +1,7 @@
 const btnMobile = document.querySelector(".btn-mobile");
 
-function toggleMenu(){
-    const btnMobile = document.querySelector(".nav");
-    
+function toggleMenu() {
+    const nav = document.querySelector(".nav");
+    nav.classList.toggle('active');
 }
-
-
-
-btnMobile.addEventListener('click',toggleMenu)
+btnMobile.addEventListener('click', toggleMenu);
